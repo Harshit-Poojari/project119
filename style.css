@@ -1,0 +1,31 @@
+h1 {
+    background-color: white;
+    color: blue;
+}
+
+body {
+    background-color:  limegreen;
+}
+
+canvas {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    margin-top: 80px;
+    animation-name: Doggy-Don;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes Doggy-Don{
+    from{box-shadow: 5px 5px 40px palevioletred;}
+    from{box-shadow: 3px 3px 40px royalblue;}
+    to{box-shadow: 3px 3px 40px olivedrab ;}
+}
+
+p {
+    padding-top: 0px;
+    font-size: 27;
+}
+
